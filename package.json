@@ -38,5 +38,6 @@
       "eslint src/*.js --fix-dry-run"
     ]
   },
-  "private": false
+  "private": false,
+  "license": "MIT"
 }
