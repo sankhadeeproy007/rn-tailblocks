@@ -1104,7 +1104,7 @@
     lodash "^4.17.15"
     write-file-atomic "^2.3.0"
 
-"@expo/vector-icons@^12.0.0":
+"@expo/vector-icons@^12.0.0", "@expo/vector-icons@^12.0.2":
   version "12.0.2"
   resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-12.0.2.tgz#ffb65a547091abcc529686be21b63ebf4cad041b"
   integrity sha512-VJZDyMvSzgZrIKeytBcxZ7Ll0iBDBAXaVLVR7nMgmhAPERnxdbqUfP6/wrxl6tETzRnG0Xzu9d64jcQRtechlg==
@@ -6414,10 +6414,10 @@ table@^6.0.4:
     slice-ansi "^4.0.0"
     string-width "^4.2.0"
 
-tailwind-react-native-classnames@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/tailwind-react-native-classnames/-/tailwind-react-native-classnames-1.0.1.tgz#385da7eed455c67db40fd356d14f3c66f873c6dc"
-  integrity sha512-sfIUVkgawQ8PkeS10vMBhLdF2nbnR+Cqm7fdQYE7T9Cje7SBR5nQPlrzOVjCg+hx+FWo3ajOhqaOdms7qo56wQ==
+tailwind-react-native-classnames@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tailwind-react-native-classnames/-/tailwind-react-native-classnames-1.2.0.tgz#f1a2270cc46c31010a6b9b40c5479a3fef59e3f9"
+  integrity sha512-KywUrJn3O5uc1aRU6Tm293HaHMuM57286ztPPXu9RY/u2x3SB2wIrhg665EunARuSTj7MFO7o6iwYBuXRxVDRA==
   dependencies:
     css "^3.0.0"
     css-to-react-native "^3.0.0"
