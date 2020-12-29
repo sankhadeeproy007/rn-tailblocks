@@ -9,6 +9,9 @@ export default function Buttons() {
       <TouchableOpacity activeOpacity={0.8} style={styles.button}>
         <Text style={styles.buttonText}>Click here</Text>
       </TouchableOpacity>
+      <TouchableOpacity activeOpacity={0.5} style={styles.outlinedButton}>
+        <Text style={styles.outlinedButtonText}>Outlined button</Text>
+      </TouchableOpacity>
       <TouchableOpacity disabled style={styles.disabledButton}>
         <Text style={styles.disabledButtonText}>Disabled</Text>
       </TouchableOpacity>
@@ -43,6 +46,21 @@ const styles = {
   ),
   buttonText: tw.style(
     'text-white',
+    'text-lg',
+    'font-semibold',
+    'tracking-wide',
+  ),
+  // Outlined button
+  outlinedButton: tw.style(
+    'px-5',
+    'py-2',
+    'rounded-lg',
+    'border-pink-600',
+    'border',
+    'mt-4',
+  ),
+  outlinedButtonText: tw.style(
+    'text-pink-600',
     'text-lg',
     'font-semibold',
     'tracking-wide',
