@@ -13,8 +13,8 @@ export default function Buttons() {
         <Text style={styles.disabledButtonText}>Disabled</Text>
       </TouchableOpacity>
       <TouchableOpacity activeOpacity={0.8} style={styles.iconButton}>
-        <Ionicons name="ios-cart" size={24} color={tw.color('white')} />
-        <Text style={styles.iconButtonText}>Shopping Cart</Text>
+        <Ionicons name="logo-google" size={24} color={tw.color('white')} />
+        <Text style={styles.iconButtonText}>Sign in with Google</Text>
       </TouchableOpacity>
       <TouchableOpacity disabled style={styles.loadingButton}>
         <Text style={styles.loadingButtonText}>Loading</Text>
@@ -62,7 +62,7 @@ const styles = {
     'px-5',
     'py-2',
     'rounded-lg',
-    'bg-green-700',
+    'bg-red-600',
     'shadow-md',
     'mt-4',
   ),
@@ -80,7 +80,7 @@ const styles = {
     'px-5',
     'py-2',
     'rounded-lg',
-    'bg-pink-600',
+    'bg-green-600',
     'mt-4',
   ),
   loadingButtonText: tw.style(
